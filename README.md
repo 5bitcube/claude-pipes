@@ -1,6 +1,7 @@
 # claude-pipes
 
 Minimal Go harness that drives Claude Code headlessly over stdin/stdout using
+
 `--input-format stream-json` / `--output-format stream-json`.
 
 Type a message, the program forwards it to a persistent `claude -p` process and
